@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 35%;
+    padding: 2% 5%;
+    /* height: 100%; */
+    /* margin: 0 auto; */
+}
+
+h1 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+p {
+    font-size: 10px;
+    margin: 5px;
+}
+
+.list1 {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.list1 h3 {
+    font-size: 25px;
+    color: brown;
+    margin: 5px;
+}
+
+.list2 {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.list2 h3 {
+    font-size: 25px;
+    color: brown;
+    margin: 5px;
+}
+
+.list3 {
+    margin: 5px;
+    font-size: 12px;
+
+}
+
+.list3 h3 {
+    font-size: 25px;
+    color: brown;
+    margin: 5px;
+}
+
+.tab {
+    font-size: 25px;
+    color: brown;
+    margin: 5px;
+
+}
+
+.cal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cal h5{
+    color: brown;
+}
+
+.carbs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carbs h5{
+    color: brown;
+}
+
+.protein {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.protein h5{
+    color: brown;
+}
+
+.fats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fats h5{
+    color: brown;
+}
+
+.desc {
+    margin: 5px;
+}
